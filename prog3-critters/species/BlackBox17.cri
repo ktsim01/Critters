@@ -1,0 +1,4 @@
+BadInstructionTest
+thisinstructiondoesn'texist
+
+Make sure that unrecognized instructions are handled properly.

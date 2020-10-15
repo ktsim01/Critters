@@ -1,0 +1,5 @@
+CompiledLoopTest
+loop
+	if(hungry)
+		break
+	left

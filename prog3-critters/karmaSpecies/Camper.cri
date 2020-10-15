@@ -1,0 +1,107 @@
+Camper
+write r2 1
+ifenemy 0 +2
+go +2
+eat
+ifally 0 +2
+go +5
+ifrandom +3
+right
+go +2
+left
+ifwall 0 +3
+hop
+go +20
+ifwall 45 +12
+ifwall 315 +6
+ifrandom +3
+right
+go +2
+left
+go +5
+ifwall 270 +3
+right
+go +2
+go +10
+go +8
+ifwall 315 +6
+ifwall 90 +3
+left
+go +2
+go +4
+go +2
+go +2
+go -31
+ifwall 45 +4
+right
+write r1 1
+go +11
+ifwall 315 +3
+left
+go +8
+ifrandom +4
+left
+left
+go +4
+right
+right
+write r1 1
+ifenemy 0 +12
+ifwall 0 +9
+ifally 0 +2
+go +5
+ifeq r1 r2 +3
+go +9
+go +2
+go +7
+hop
+go +2
+go +4
+go +2
+eat
+go -13
+ifeq r1 r2 +9
+left
+left
+ifally 270 +4
+left
+left
+go +2
+write r3 1
+go +8
+right
+right
+ifally 90 +4
+right
+right
+go +2
+write r3 1
+ifeq r3 r2 +12
+ifally 0 +2
+go +9
+ifeq r1 r2 +5
+right
+right
+write r3 1
+go +4
+left
+left
+write r3 1
+go +13
+ifeq r1 r2 +7
+ifally 270 +2
+go +4
+write r3 0
+left
+left
+go +6
+ifally 90 +5
+write r3 0
+right
+right
+go +1
+ifhungry +3
+infect
+go +2
+eat
+go -28

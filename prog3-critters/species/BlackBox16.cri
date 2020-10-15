@@ -1,0 +1,4 @@
+OutOfBoundsTest
+go 42069
+
+Makes sure that out of bounds is handled properly.

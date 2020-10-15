@@ -1,0 +1,10 @@
+AngleTest
+ifangle 90 0 4
+infect
+go 1
+left
+go 4
+
+Tests ifangle.
+Creature will start spinning if the critter to its right is facing the same direction as it.
+May need a lot of allies and simulations for this to occur.

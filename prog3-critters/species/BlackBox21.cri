@@ -1,0 +1,4 @@
+BadRegisterTest
+write r-1234567890 0
+
+Checks if bad registers are handled properly.

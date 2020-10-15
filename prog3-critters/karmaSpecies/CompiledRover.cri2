@@ -1,0 +1,15 @@
+CompiledRover
+if(enemy(0))
+	if(hungry)
+		eat
+	else
+		infect
+	restart
+if(empty(0))
+	hop
+	restart
+if(random)
+	left
+else
+	right
+restart

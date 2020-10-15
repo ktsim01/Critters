@@ -1,0 +1,7 @@
+EatTest
+hop
+eat
+go 1
+
+Tests eating.
+With enough food, it should be clear whether this worked or not.

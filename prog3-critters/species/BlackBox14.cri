@@ -1,0 +1,24 @@
+RegisterTest
+write r1 10
+write r2 10
+add r1 r2
+sub r2 r1
+inc r1
+dec r2
+write r3 21
+write r4 -11
+ifeq r1 r3 11
+go 19
+ifeq r2 r4 13
+go 19
+iflt r2 r1 15
+go 19
+ifgt r1 r2 17
+go 19
+left
+go 17
+infect
+go 19
+
+Basic register manipulation. 
+Spinning = success

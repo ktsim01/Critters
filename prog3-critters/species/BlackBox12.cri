@@ -1,0 +1,9 @@
+WallTest
+ifwall 0 4
+infect
+go 1
+left
+go 4
+
+Checks ifwall.
+Starts spinning if it sees a wall.

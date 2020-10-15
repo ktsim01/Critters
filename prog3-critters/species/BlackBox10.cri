@@ -1,0 +1,10 @@
+AllyTest
+ifally 0 4
+infect
+go 1
+left
+go 4
+
+Checks ifally.
+Critters should spin if they are facing an ally.
+Good to test with lots of allies.

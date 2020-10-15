@@ -1,0 +1,19 @@
+CompiledRegisterTest
+define x r1
+define y r2
+x = 10
+y = 10
+x += y
+y -= x
+x++
+y--
+define a r3
+define b r4
+a = 21
+b = -11
+if(x = a)
+	if(y = b)
+		if(y < x)
+			if(x > y)
+				left
+restart

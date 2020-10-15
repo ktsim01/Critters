@@ -1,0 +1,17 @@
+CompiledRover
+ifenemy 0 +2
+go +6
+ifhungry +3
+infect
+go +2
+eat
+go 1
+ifempty 0 +2
+go +3
+hop
+go 1
+ifrandom +3
+right
+go +2
+left
+go 1

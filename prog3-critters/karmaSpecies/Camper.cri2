@@ -1,0 +1,105 @@
+Camper
+define leftWall r1
+define true r2
+define facingForward r3
+true = 1
+loop
+	if(enemy(0))
+		eat
+	if(ally(0))
+		if(random)
+			left
+		else
+			right
+	if(wall(0))
+		if(wall(45))		
+			if(wall(315))
+				break
+			else
+				if(wall(90))
+					break
+				else
+					left
+		else	
+			if(wall(315))
+				if(wall(270))
+					break
+				else
+					right
+			else
+				if(random)
+					left
+				else
+					right
+	else
+		hop
+if(wall(45))
+	if(wall(315))
+		if(random)
+			right
+			right
+			leftWall = 1
+		else
+			left
+			left
+	else
+		left
+else
+	right
+	leftWall = 1
+loop
+	if(enemy(0))
+		eat
+	else
+		if(wall(0))
+			break
+		else 
+			if(ally(0))
+				if(leftWall=true)
+					break
+				else
+					break
+			hop
+if(leftWall=true)
+	right
+	right
+	if(ally(90))
+		facingForward=1
+	else
+		right
+		right
+else
+	left
+	left
+	if(ally(270))
+		facingForward=1
+	else
+		left
+		left
+loop
+	if(facingForward=true)
+		if(leftWall=true)
+			if(ally(90))
+			else
+				facingForward=0
+				right
+				right
+		else
+			if(ally(270))
+				facingForward=0
+				left
+				left
+	else
+		if(ally(0))
+			if(leftWall=true)
+				left
+				left
+				facingForward=1
+			else
+				right
+				right
+				facingForward=1
+	if(hungry)
+		eat
+	else
+		infect

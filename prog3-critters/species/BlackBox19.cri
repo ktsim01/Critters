@@ -1,0 +1,4 @@
+BadParameterTest2
+go qwertyuiop
+
+Checks if wrong parameters are handled properly.

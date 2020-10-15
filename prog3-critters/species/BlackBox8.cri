@@ -1,0 +1,9 @@
+StarvingTest
+ifstarving 4
+infect
+go 1
+left
+go 4
+
+Checks if starving.
+Critters should stay still until they are starving, in which they will continually spin.

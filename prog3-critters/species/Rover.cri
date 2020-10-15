@@ -1,0 +1,19 @@
+Rover
+ifenemy 0 10
+ifempty 0 8
+ifrandom 6
+left
+go 1
+right
+go 1
+hop
+go 1
+ifhungry 13
+infect
+go 1
+eat
+go 1
+
+
+This critter hops in a straight line until it is blocked, infecting any
+enemies that it sees.  When it can't move forward it turns.

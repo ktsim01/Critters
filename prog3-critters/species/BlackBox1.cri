@@ -1,0 +1,62 @@
+AllInstructionsTest
+hop
+left
+right
+infect
+infect 1
+eat
+go 1
+go +1
+go -1
+go r1
+ifrandom 1
+ifrandom +1
+ifrandom -1
+ifrandom r1
+ifhungry 1
+ifhungry +1
+ifhungry -1
+ifhungry r1
+ifstarving 1
+ifstarving +1
+ifstarving -1
+ifstarving r1
+ifempty 0 1
+ifempty 0 +1
+ifempty 0 -1
+ifempty 0 r1
+ifally 0 1
+ifally 0 +1
+ifally 0 -1
+ifally 0 r1
+ifenemy 0 1
+ifenemy 0 +1
+ifenemy 0 -1
+ifenemy 0 r1
+ifwall 0 1
+ifwall 0 +1
+ifwall 0 -1
+ifwall 0 r1
+ifangle 0 0 1
+ifangle 0 0 +1
+ifangle 0 0 -1
+ifangle 0 0 r1
+write r1 0
+add r1 r2
+sub r1 r2
+inc r1
+dec r1
+iflt r1 r2 1
+iflt r1 r2 +1
+iflt r1 r2 -1
+iflt r1 r2 r1
+ifeq r1 r2 1
+ifeq r1 r2 +1
+ifeq r1 r2 -1
+ifeq r1 r2 r1
+ifgt r1 r2 1
+ifgt r1 r2 +1
+ifgt r1 r2 -1
+ifgt r1 r2 r1
+
+Tests if there are any issues with reading in valid instructions.

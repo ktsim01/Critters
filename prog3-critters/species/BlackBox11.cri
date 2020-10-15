@@ -1,0 +1,10 @@
+EnemyTest
+ifenemy 0 4
+infect
+go 1
+left
+go 4
+
+Checks ifenemy. 
+Starts spinning if it sees an enemy.
+Good to test with a lot of food.

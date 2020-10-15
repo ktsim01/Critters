@@ -1,0 +1,12 @@
+GoTest
+write r1 3
+go +2
+right
+go 7
+left
+go r1
+hop
+go -3
+
+Testing the various kinds of jumps.
+Functionally, this should have the same effect as the basic movement test.

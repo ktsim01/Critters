@@ -1,0 +1,9 @@
+HungryTest
+ifhungry 4
+infect
+go 1
+left
+go 4
+
+Checks if hungry.
+Critters should stay still until they are hungry, in which they will continually spin.

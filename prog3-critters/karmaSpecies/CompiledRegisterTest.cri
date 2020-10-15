@@ -1,0 +1,20 @@
+CompiledRegisterTest
+write r1 10
+write r2 10
+add r1 r2
+sub r2 r1
+inc r1
+dec r2
+write r3 21
+write r4 -11
+ifeq r1 r3 +2
+go +8
+ifeq r2 r4 +2
+go +6
+iflt r2 r1 +2
+go +4
+ifgt r1 r2 +2
+go +2
+left
+go 1
+

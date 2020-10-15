@@ -1,0 +1,6 @@
+CompiledLoopTest
+ifhungry +2
+go +2
+go +3
+left
+go -4

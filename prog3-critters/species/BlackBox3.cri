@@ -1,0 +1,7 @@
+InfectTest
+hop
+infect
+go 1
+
+Attempts to infect everything.
+By adding a large amount of food, this is easy to test.

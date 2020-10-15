@@ -1,0 +1,7 @@
+UselessInfectTest
+hop
+infect -1
+go 1
+
+Attempts to infect everything, but those infected will do nothing.
+Easy to check with a lot of food.

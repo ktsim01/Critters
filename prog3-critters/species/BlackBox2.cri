@@ -1,0 +1,8 @@
+BasicMovementTest
+hop
+left
+right
+go 1
+
+Checks if basic movement works properly.
+Critter should continually, move forward, look left then right.

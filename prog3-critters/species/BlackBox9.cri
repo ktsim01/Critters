@@ -1,0 +1,8 @@
+EmptyTest
+ifempty 0 4
+infect
+go 1
+left
+go 4
+
+Checks ifempty. Critter should start spinning if the cell in front is empty.

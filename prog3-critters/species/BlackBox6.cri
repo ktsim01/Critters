@@ -1,0 +1,8 @@
+RandomTest
+ifrandom 3
+go -100
+left
+go 3
+
+Checks if random.
+Roughly half the critters will spin.
